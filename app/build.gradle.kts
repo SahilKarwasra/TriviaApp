@@ -88,6 +88,7 @@ dependencies {
     kspAndroidTest (libs.com.google.dagger.hilt.compiler2)
     testImplementation (libs.google.hilt.android.testing)
     kspTest (libs.com.google.dagger.hilt.compiler2)
+    implementation(libs.androidx.hilt.navigation.compose)
 
     // Retrofit
     implementation (libs.retrofit)
